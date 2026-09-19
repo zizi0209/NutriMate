@@ -14,7 +14,6 @@
 - **Frontend (FE):** [Vue.js 3](https://vuejs.org/) (Composition API), Vite, Tailwind CSS, Pinia, Vue Router.
 - **Backend (BE):** [Node.js](https://nodejs.org/) & Express (TypeScript / ES Modules).
 - **Database (DB):** [PostgreSQL](https://www.postgresql.org/) (Quản lý người dùng, thực phẩm, đơn hàng, log dinh dưỡng).
-- **AI Integration:** Google Gemini API (NutriBot tư vấn dinh dưỡng & AI Scanner quét nhãn thực phẩm).
 
 ---
 
@@ -38,7 +37,7 @@
 ```
 [ Frontend: Vue.js 3 ] ──(RESTful API / JSON)──> [ Backend: Node.js / Express ] ──(pg Client)──> [ Database: PostgreSQL ]
                                                                 │
-                                                                └──(Gemini API)──> [ AI Engine ]
+                                                                └──(API)──> [ AI Engine ]
 ```
 
 ---
